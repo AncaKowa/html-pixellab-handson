@@ -16,15 +16,54 @@
 </head>
 
 <body>
-  <form >
+
+<form >
+
+  <label for="name">*Name</label>
+<input type="text"
+name="name"
+id="name"
+placeholder="Nume"
+minlength="5"
+maxlength="30"
+required>
+<br>
+
+<label for="surname">*Surname</label>
+<input type="text"
+name="surname"
+id="surname"
+placeholder="Prenume"
+minlength="5"
+maxlength="30"
+required>
+<br>
+    <button
+      type="submit"
+      name="submit"
+    >Submit</button>
+
+<br>
+
     <label for="message">* Message:</label>
     <textarea
-    name="message"
-    id="message"
-    cols="30"
-    rows="4"
-    placeholder="Mesaj"
-    required></textarea>
+      name="message"
+      id="message"
+      cols="30"
+      rows="4"
+      placeholder="Mesaj"
+      required
+    ></textarea>
+
+
+    <label for="details">Details</label>
+    <textarea
+      name="details"
+      id="details"
+      cols="30"
+      rows="8"
+      placeholder="Detalii"
+    ></textarea>
     </form>
 
 
