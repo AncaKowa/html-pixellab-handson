@@ -1,0 +1,16 @@
+ol a {
+  color: green;
+  text-decoration: line-through blue;
+}
+
+h2 {
+  text-shadow: 2px 2px 5px yellow;
+  font-weight: normal;
+}
+
+/* y e in jos, nu ca la mate */
+p i {
+  color: blue;
+  font-weight: bold;
+  text-decoration: line-through;
+}
