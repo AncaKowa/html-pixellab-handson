@@ -1,3 +1,12 @@
+h1 {
+  color: red;
+  text-decoration: underline red;
+}
+
+p {
+  color: gray;
+}
+
 ol a {
   color: green;
   text-decoration: line-through blue;
@@ -8,9 +17,25 @@ h2 {
   font-weight: normal;
 }
 
-/* y e in jos, nu ca la mate */
+h3 {
+  text-shadow: 0 3px 5px green;
+  text-decoration: underline dotted brown;
+}
+
+ul li {
+  text-decoration: underline purple;
+  color: purple;
+}
+
+p b {
+  color: yellow;
+  text-decoration: underline yellow;
+}
+
 p i {
   color: blue;
-  font-weight: bold;
   text-decoration: line-through;
+  font-weight: bold;
 }
+
+/* y e in jos, nu ca la mate */

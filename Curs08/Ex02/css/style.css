@@ -1,3 +1,17 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @font-face {
   font-family: 'Roboto';
   src: url('../fonts/Roboto-LightItalic.woff2') format('woff2'),
@@ -122,6 +136,43 @@ body {
 body {
   font-family: 'Roboto','Arial', Helvetica','sans-serif';
 }
+
+
+h1{
+  color: red;
+  font-family: Julius Sans One;
+  font-size: 35px;
+}
+
+body{
+  font-family: Roboto Regular;
+}
+
+ol a{
+  font-family: Roboto Bold;
+}
+
+ul li{
+  font-family: Julius Sans One;
+  line-height: 25px;
+}
+
+h3{
+  font-family: Roboto Bold ;
+  color: green;
+  font-size: 28px;
+}
+h2{
+font-family: Julius Sans One;
+color: purple;
+text-decoration: underline purple;
+font-size: 32px;
+}
+
+p{
+  line-height: 23px;
+}
+
 
 ol a {
   font-family: Roboto;
