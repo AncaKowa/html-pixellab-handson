@@ -11,7 +11,6 @@
   width: 150px;
   height: 300px;
   border-radius: 20px;
-  background-color: blue;
   padding-top: 25px;
   padding-bottom: 10px;
   padding-left: 13px;
@@ -22,11 +21,9 @@
 .container {
   width: 100%;
   border: 3px solid green;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 15px;
 }
+
 .green {
   background-color: green;
   width: 500px;
@@ -64,6 +61,7 @@
   padding: 20px;
   margin-bottom: 20px;
   margin-top: 20px;
+  /* de verificat aici */
   margin-left: auto;
   margin-right: auto;
 }
