@@ -15,7 +15,7 @@ p i {
 }
 
 p .line {
-  color: grey;
+  color: gr;
 }
 
 p b {
@@ -42,4 +42,8 @@ a[href^="http://"]
 a[href$='.com'] {
   color: black;
   text-decoration: underline;
+}
+
+.links a {
+  text-decoration: none;
 }

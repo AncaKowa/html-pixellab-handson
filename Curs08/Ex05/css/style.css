@@ -25,6 +25,17 @@
   left: 10px;
 }
 
-.sub {
+.sup {
   position: relative;
+  bottom: -5px;
+  font-size: 14px;
+}
+
+.nav-top {
+  position: fixed;
+  background-color: green;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  padding: 12px;
 }
