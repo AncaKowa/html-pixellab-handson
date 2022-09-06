@@ -1,0 +1,15 @@
+.nested > li > ul > li:last-child a {
+  text-decoration: none;
+}
+
+/* cerinta 4 */
+
+.my-list > li:nth-child(3) {
+  background-color: gray;
+}
+
+/* cernta 5 */
+
+body h3:nth-of-type(4) {
+  color: green;
+}
