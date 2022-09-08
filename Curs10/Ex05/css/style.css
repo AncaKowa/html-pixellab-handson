@@ -1,5 +1,19 @@
+.nested > li:first-child a {
+  text-decoration: none;
+}
+
 .nested > li > ul > li:last-child a {
   text-decoration: none;
+}
+
+/* d everificat cerinta 3 */
+.last-list li:nth-child(odd) {
+  background-color: yellow;
+}
+
+/* de verificat cerinta 4 */
+.my-list > li:nth-child(3) {
+  background-color: gray;
 }
 
 /* cerinta 4 */
@@ -8,7 +22,7 @@
   background-color: gray;
 }
 
-/* cernta 5 */
+/* cerinta 5 */
 
 body h3:nth-of-type(4) {
   color: green;
