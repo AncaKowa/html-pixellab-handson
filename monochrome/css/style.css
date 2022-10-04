@@ -366,16 +366,9 @@ a {
 /* add reset */
 /* add custom resets box-sizing anchors ul li*/
 
-/* header */
-
 .header {
-  height: 500px;
-  background-image: #2b2b2b url('../images/banners/banner.png') center center/
-    cover no-repeat;
-  background-color: #e8e8e8;
+  margin: 30px auto;
 }
-
-/* de verificat margin -bottom, daca il las sau nu */
 
 .header-secondary .header-connect {
   float: left;
@@ -383,30 +376,120 @@ a {
 
 .header-secondary .header-connect li {
   display: inline-block;
-  margin: 20px 6px;
+}
+
+.header-secondary .header-connect {
+  position: absolute;
+  right: 1000px;
+  width: 100px;
+  padding: 50px;
+  color: #ffffff;
+  align-items: center;
 }
 
 .header-secondary .header-controls {
   float: right;
 }
 
-.header-secondary .header-controls form {
-  display: inline-block;
-  margin: auto 30px;
-  position: fixed;
-}
-
 .header-secondary .header-controls li {
   display: inline-block;
-  margin: auto;
-  position: relative;
+}
+/* header-secondary */
+
+.header-primary {
+  text-transform: uppercase;
+  font-weight: 300;
 }
 
-.header-primary .nav-primary li {
-  display: flex;
-  text-transform: uppercase;
-  background: #2b2b2b;
+.nav-primary {
+  text-align: center;
+  font-size: 19px;
+  color: #e8e8e8;
+  background-color: #2b2b2b;
   width: 1920px;
   height: 52px;
-  font-size: 19px;
+}
+
+.nav-primary li {
+  display: inline-block;
+}
+
+.nav-primary a {
+  padding: 70px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 43px;
+}
+
+/* header-primary */
+
+/* footer */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  font-size: 22px;
+  text-transform: lowercase;
+  line-height: 37px;
+  background-color: #e8e8e8;
+  width: 1920px;
+  height: 331px;
+  margin: 40px auto;
+  padding: 40px 284px;
+}
+
+.footer-nav ul {
+  display: inline-block;
+}
+
+.footer-nav ul:first-child {
+  margin-left: 350px;
+  margin-right: 180px;
+}
+
+.footer-connect {
+  margin-left: 1000px;
+  margin-top: -255px;
+}
+
+.footer-newsletter {
+  display: inline-block;
+}
+
+.footer-social li {
+  display: inline-block;
+  padding-right: 13px;
+  padding-top: 13px;
+  margin-top: -350px;
+}
+
+/* footer */
+
+/* homepage */
+
+.content-main .product-tiles {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 1356px;
+  padding-left: 282px;
+  padding-right: 282px;
+}
+
+.content-main .product-tiles li {
+  width: 25.2756;
+  margin-right: 20px;
+}
+/* 321*100/1270=25.27559 */
+
+.content-main header h1 {
+  text-align: center;
+  font-size: 35px;
+  color: #2b2b2b;
+  line-height: 47px;
+}
+
+.home-content img {
+  display: inline-block;
+  margin-left: 0px;
 }
